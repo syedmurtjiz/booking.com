@@ -1,0 +1,10 @@
+.container {
+    background-color: blue;
+}
+.container .logo{
+    color: aliceblue;
+    background-color: blue;
+    padding: 50;
+    align-self: auto;    
+
+}
