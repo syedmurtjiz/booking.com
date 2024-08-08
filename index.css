@@ -5,15 +5,42 @@
     
 }
 
-header {
-  background-color: 	#00008b;
+.header1{
+    background-color: 	#00008b;
+    
 }
 
-.booking{
-
+.header1 .booking{
     color: aliceblue;
-    margin-left: 5%;
-    padding-top: 10%;
-    line-height: 10%;
+    margin-left: 30px;
+    font-size: 25px;
+    background-color: #00008b;
+    
 }
+
+.header1 ul{
+    display: flex;
+    gap: 3%;
+    margin-left: 30%;
+    background-color: #00008b;
+    
+}
+
+.header1 ul li{
+    background-color:#00008b;
+    color: white;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
