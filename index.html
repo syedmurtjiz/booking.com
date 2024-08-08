@@ -1,247 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booking.com</title>
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-    <div class="container">
-        <a href="#" class="logo"><h2>Booking.com</h2></a>
-        <nav>
-            <ul>
-                <li><a href="#">PKR</a></li>
-                <li><a href="#">Select your language</a></li>
-                <li><a href="#">Contact customer service</a></li>
-                <li><a href="#">List your property</a></li>
-                <li><button type="button"><a href="#">Register</a></button></li>
-                <li><button type="button"><a href="#">Sign in</a></button></li>
-            </ul>
-        </nav>
-    
+    <div class="main-body">
+        <header class="header">
+            <div class="container">
+                <a href="#" class="booking">Booking.com</a>
+                <nav>
+                    <ul>
+                        <li><a href="#">PKR</a></li>
+                        <li><a href="#">Select your language</a></li>
+                        <li><a href="#">Contact customer service</a></li>
+                        <li><a href="#">List your property</a></li>
+                        <li><a href="#"><button type="button">Register</button></a></li>
+                        <li><a href="#"><button type="button">Sign in</button></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="stays">
+                <ul>
+                    <li><a href="#">Stay</a></li>
+                    <li><a href="#">Flights</a></li>
+                    <li><a href="#">Car Rentals</a></li>
+                    <li><a href="#">Attractions</a></li>
+                    <li><a href="#">Airport taxis</a></li>
+                </ul>
+            </div>
+        </header>
 
-    <div class="container">
-            <ul>
-                <li><a href="#">Stay</a></li>
-                <li><a href="#">Flights</a></li>
-                <li><a href="#">Car Rentals</a></li>
-                <li><a href="#">Attractions</a></li>
-                <li><a href="#">Airport taxis</a></li>
-            </ul>
-    </div>
+        <main class="find">
+            <section>
+                <h1>Find your next stay</h1>
+                <h3>Search deals on hotels, homes, and much more...</h3>
 
-    <div class="container">
+                <form class="form">
+                    <label for="state-select">Select your state:</label>
+                    <select id="state-select" name="state" class="form-control selectpicker">
+                        <option value="">Please select your state</option>
+                        <option>Islamabad</option>
+                        <option>Rawalpindi</option>
+                        <option>Lahore</option>
+                        <option>Nathiagali</option>
+                        <option>Muree</option>
+                        <option>Karachi</option>
+                    </select>
 
-        <h1>Find your next stay</h1>
-        <h3>Search deals on hotel, home and much more...</h3>
+                    <label for="check-in">Check-in:</label>
+                    <input type="date" id="check-in" name="check-in">
 
-        <div class="form"> 
-            
-            <select name="state" class="form-control selectpicker" >
-                <option value=" " >Please select your state</option>
-                <option>Islamabad</option>
-                <option> RawalPindi</option>
-                <option>Lahore</option>
-                <option>Nathiagali</option>
-                <option >Muree</option>
-                <option >Karachi</option>
-             </select>
+                    <label for="check-out">Check-out:</label>
+                    <input type="date" id="check-out" name="check-out">
 
-            <input type="date" id="check-in" placeholder="Check-in">
-            <input type="date" id="check-out" placeholder="Check-out">
-            <button type="submit">Search</button>
-         
-            
-          </div>
-    </div>
-</div>
-    <div class="main">
+                    <button type="submit">Search</button>
+                </form>
+            </section>
+
+            <section class="main">
                 <h3>Offers</h3>
                 <p>Promotions, deals, and special offers for you</p>
 
-          <div class="banner">
-            <h3>Seize the moment!</h3>
-            <p>Save 15% or more when you book and stay befor October 1,2024</p>
-            <button type="button"><a href="#">Find Getaway Deals</a></button> 
-          </div>
-    </div>
+                <div class="banner">
+                    <h3>Seize the moment!</h3>
+                    <p>Save 15% or more when you book and stay before October 1, 2024</p>
+                    <a href="#"><button type="button">Find Getaway Deals</button></a>
+                </div>
+            </section>
 
-    <div class="property-type">
-        <h3>Browse by property type</h3>
-        <div class="images">
-            <a href="img">
-                <img src="hotel.jpg" alt="Hotels">
-                <h4>Hotels</h4>
-            </a>
-            <a href="img">
-                <img src="apartment.jpg" alt="Apartments">
-                <h4>Apartments</h4>
-            </a>
-            <a href="img"><img src="resort.jpg" alt="Resort">
-                <h4>Resort</h4>
-            </a>
-            <a href="img">
-                <img src="villas.jpg" alt="Villas">
-                <h4>Villas</h4>
-            </a>
-            <a href="img">
-                <img src="cabin.jpeg" alt="Villas">
-                <h4>Cabin</h4>
-            </a>
-            <a href="img">
-                <img src="cat.jpg" alt="Villas">
-                <h4>Cottage</h4>
-            </a>
-        </div>
-    </div>
+            <section class="property-type">
+                <h3>Browse by property type</h3>
+                <div class="images">
+                    <a href="#"><img src="hotel.jpg" alt="Hotels">
+                        <h4>Hotels</h4>
+                    </a>
+                    <a href="#"><img src="apartment.jpg" alt="Apartments">
+                        <h4>Apartments</h4>
+                    </a>
+                    <a href="#"><img src="resort.jpg" alt="Resorts">
+                        <h4>Resorts</h4>
+                    </a>
+                    <a href="#"><img src="villas.jpg" alt="Villas">
+                        <h4>Villas</h4>
+                    </a>
+                    <a href="#"><img src="cabin.jpeg" alt="Cabins">
+                        <h4>Cabins</h4>
+                    </a>
+                    <a href="#"><img src="cat.jpg" alt="Cottages">
+                        <h4>Cottages</h4>
+                    </a>
+                </div>
+            </section>
 
-
-   <div class="explore-pakistan">
+            <section class="explore-pakistan">
                 <h3>Explore Pakistan</h3>
-                <p>These popular destination have a lot to offer</p>
-            
-         <div class="images">
-                    <a href="img"><img src="isb.jpg" alt="Islamabad"></a>
-                    <h4>Islamabad</h4>
-                    <p>296 Properties</p>
+                <p>These popular destinations have a lot to offer</p>
 
-                    <a href="img"><img src="lhr.jpg" alt="Lahore"></a>
-                    <h4>Lahore</h4>
-                    <p>310 Properties</p>
-                    
-                    <a href="img"><img src="nathia.jog.jpg" alt="Nathiagali"></a>
-                    <h4>Nathiagali</h4>
-                    <p>3 Properties</p>
-                    
-                    <a href="img"><img src="muree.jpg" alt="Muree"></a>
-                    <h4>Muree</h4>
-                    <p>57 Properties</p>
-                    
-                    <a href="img"><img src="kar.jpg" alt="Muree"></a>
-                    <h4>Karachi</h4>
-                    <p>57 Properties</p>
+                <div class="images">
+                    <a href="#"><img src="isb.jpg" alt="Islamabad">
+                        <h4>Islamabad</h4>
+                        <p>296 Properties</p>
+                    </a>
+                    <a href="#"><img src="lhr.jpg" alt="Lahore">
+                        <h4>Lahore</h4>
+                        <p>310 Properties</p>
+                    </a>
+                    <a href="#"><img src="nathia.jog.jpg" alt="Nathiagali">
+                        <h4>Nathiagali</h4>
+                        <p>3 Properties</p>
+                    </a>
+                    <a href="#"><img src="muree.jpg" alt="Muree">
+                        <h4>Muree</h4>
+                        <p>57 Properties</p>
+                    </a>
+                    <a href="#"><img src="kar.jpg" alt="Karachi">
+                        <h4>Karachi</h4>
+                        <p>57 Properties</p>
+                    </a>
+                </div>
+            </section>
 
-         </div>    
-   </div>
-   
-   <div class="trending-destination">
-    
-    <h3>Rrending destination</h3>
-    <p>Most popular choice for travelers for Pakistan </p>
-    
-        <div class="content">
-                <h5>Mecca</h5>
-                <h5>Islamabad</h5>
-                <h5>Lahore</h5>
-                <h5>Dubai</h5>
-                <h5>Karachi </h5>
-        </div>
-   </div>
+            <section class="trending-destination">
+                <h3>Trending destinations</h3>
+                <p>Most popular choices for travelers in Pakistan</p>
 
-   <div class="deals">
-        <h3>Get inspiration for your next trip</h3>
+                <div class="content">
+                    <h5 class="h5-1">Mecca</h5>
+                    <h5 class="h5-2">Islamabad</h5>
+                    <h5 class="h5-3">Lahore</h5>
+                    <h5 class="h5-4">Dubai</h5>
+                    <h5 class="h5-5">Karachi</h5>
 
-        <div class="content">
-            <h3>5 of the best hotels in Los Angels </h3>
-            <p>From Hollywood to Beverly Hills discover 5 of the best 
-                hotels in Los Angekes for your stay</p>
-            </div>
-            
-            <div class="img">
-                <a href="#">
-                    <img src="image/img1.jpg" alt="">
-                    <h3>The 6 best Orlando hotels for Families</h3>
-                    <p>Discover the best Orlando Hotels</p>
-                </a>
-                <a href="#">
-                    <img src="image/img2.jpg" alt="">
-                    <h3> 5 Best skytowns around the world</h3>
-                    <p>Discover a winter wonderland in these charming ski destination</p>
-                </a>
-                
-                <a href="#" target="index.html">
-                    <img src="image/img.3.webp" alt="">
-                    <h3>5 vacations homes for a Thanks giving getaway</h3>
-                    <p>Enjoy Thanks giving dinner at these vacation homes </p>
-                </a>
-            
-            </div> 
-   </div>
-   
-   <div class="traveling">
-            <h3>Be insipired when traveling </h3>
-            <p>A stay at one of these picturesque vacation rentals won't disappoint </p>
-    
-            <div class="img">
-                <a href="#">
-                    <img src="trav1.jpg" alt="">
-                    <h3>Lilita House</h3>
-                    <p>Ibiza,Spain</p>
-                    <p><button type="button">9.9</button>Exceptional.20reviews</p>
-                </a>
+                </div>
+            </section>
 
+            <section class="deals">
+                <h3>Get inspiration for your next trip</h3>
 
-                    <a href="#">                        
-                    <img src="trav2.jpg" alt="">
-                    <h3>Boho chic oasis by Casa Oso with pool , spa and views</h3>
-                    <p>Ahwahnee,United State of England</p>
-                    <p><button type="button">9.9</button>Exceptional.8reviews</p>
-                </a>
-                <a href="">
-                    <img src="trav3.jpg" alt="">
-                    <h3>Casia Juliarina</h3>
-                    <p>Ahwahnee,United State of England</p>
-                    <p><button type="button">9.8</button>Exceptional.8reviews</p>
-                </a>
-                <a href="#">
-                    <img src="trav4.jpg" alt="">
-                    <h3>Villa Castello</h3>
-                    <p>Sant Josep,United State of Spain</p>
-                    <p><button type="button">9.8</button>Exceptional.8reviews</p>
-                </a>
+                <div class="content">
+                    <h3>5 of the best hotels in Los Angeles</h3>
+                    <p>From Hollywood to Beverly Hills, discover 5 of the best hotels in Los Angeles for your stay</p>
+                </div>
 
-            </div>
-</div>
+                <div class="img">
+                    <a href="#">
+                        <img src="image/img1.jpg" alt="Orlando hotels for families">
+                        <h3>The 6 best Orlando hotels for Families</h3>
+                        <p>Discover the best Orlando Hotels</p>
+                    </a>
+                    <a href="#">
+                        <img src="image/img2.jpg" alt="Ski towns">
+                        <h3>5 Best ski towns around the world</h3>
+                        <p>Discover a winter wonderland in these charming ski destinations</p>
+                    </a>
 
-<div class="properties">
-    <h3>Stay at our top unique properties</h3>
-    <p>From Castles and villas to boats and igloos,we have it all</p>
-    
-    <div class="img">
-        <a href="#">
-            <img src="prop1.webp" alt="">
-            <h3>Gyttja</h3>
-            <p>Finland,Lillandet</p>
-            <p><button type="button">9.3</button>Wonderful.8reviews</p>
-        </a>
-      
-        <a href="#"><img src="prop2.webp" alt="">
-            <h3>Waldschenenke</h3>
-            <p>Germany,Neuruppin</p>
-            <p><button type="button">8.7</button>Excellent.377reviews</p>
-        </a>
-      
-        <a href="#"><img src="prop3.jpg" alt="">
-            <h3>Harbor View</h3>
-            <p>United Kingdom,Isle of skype</p>
-            <p><button type="button">8.3</button>Wonderful.143reviews</p>
-        </a>
-        <a href="#"><img src="prop4.wenp.webp" alt="">
-            <h3>Casa Rural La Marquesa </h3>
-            <p>Spain,Valera</p>
-            <p><button type="button">9.9</button>Exceptional.49reviews</p>
-        </a>
+                    <a href="#">
+                        <img src="image/img3.webp" alt="Thanksgiving getaway">
+                        <h3>5 vacation homes for a Thanksgiving getaway</h3>
+                        <p>Enjoy Thanksgiving dinner at these vacation homes</p>
+                    </a>
+                </div>
+            </section>
+
+            <section class="traveling">
+                <h3>Be inspired when traveling</h3>
+                <p>A stay at one of these picturesque vacation rentals won't disappoint</p>
+
+                <div class="img">
+                    <a href="#">
+                        <img src="trav1.jpg" alt="Lilita House">
+                        <h3>Lilita House</h3>
+                        <p>Ibiza, Spain</p>
+                        <p><button type="button">9.9</button> Exceptional. 20 reviews</p>
+                    </a>
+
+                    <a href="#">
+                        <img src="trav2.jpg" alt="Boho chic oasis">
+                        <h3>Boho chic oasis by Casa Oso with pool, spa, and views</h3>
+                        <p>Ahwahnee, United States</p>
+                        <p><button type="button">9.9</button> Exceptional. 8 reviews</p>
+                    </a>
+                    <a href="#">
+                        <img src="trav3.jpg" alt="Casia Juliarina">
+                        <h3>Casia Juliarina</h3>
+                        <p>Ahwahnee, United States</p>
+                        <p><button type="button">9.8</button> Exceptional. 8 reviews</p>
+                    </a>
+                    <a href="#">
+                        <img src="trav4.jpg" alt="Villa Castello">
+                        <h3>Villa Castello</h3>
+                        <p>Sant Josep, Spain</p>
+                        <p><button type="button">9.8</button> Exceptional. 8 reviews</p>
+                    </a>
+                </div>
+            </section>
+
+            <section class="properties">
+                <h3>Stay at our top unique properties</h3>
+                <p>From castles and villas to boats and igloos, we have it all</p>
+
+                <div class="img">
+                    <a href="#">
+                        <img src="prop1.webp" alt="Gyttja">
+                        <h3>Gyttja</h3>
+                        <p>Finland, Lillandet</p>
+                        <p><button type="button">9.3</button> Wonderful. 8 reviews</p>
+                    </a>
+
+                    <a href="#">
+                        <img src="prop2.webp" alt="Waldschenenke">
+                        <h3>Waldschenenke</h3>
+                        <p>Germany, Neuruppin</p>
+                        <p><button type="button">9.1</button> Excellent. 377 reviews</p>
+                    </a>
+
+                    <a href="#">
+                        <img src="prop3.jpg" alt="Harbor View">
+                        <h3>Harbor View</h3>
+                        <p>United Kingdom, Isle of Skye</p>
+                        <p><button type="button">8.3</button> Wonderful. 143 reviews</p>
+                    </a>
+                    <a href="#">
+                        <img src="prop4.webp" alt="Casa Rural La Marquesa">
+                        <h3>Casa Rural La Marquesa</h3>
+                        <p>Spain, Valera</p>
+                        <p><button type="button">9.9</button> Exceptional. 49 reviews</p>
+                    </a>
+                </div>
+            </section>
+
+            <section class="discount">
+                <img src="logo.png" alt="Booking.com Logo">
+                <h3>Get instant discount</h3>
+                <p>Just sign into your Booking.com account and look for the blue Genius logo to save</p>
+                <a href="#"><button type="button">Sign in</button></a>
+                <a href="#"><button type="button">Register</button></a>
+            </section>
+        </main>
     </div>
-</div>
-
-<div class="logo">
-<img src="logo.png" alt=""><h3>Get instant discount</h3>
-<p>Just sign into your Booking.com account and look for the blue Genius logo to save</p>
-<button>Sign in</button> <a href=""><button>Register</button></a>
-
-
-</div>
-
 </body>
+
 </html>
