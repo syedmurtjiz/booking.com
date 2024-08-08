@@ -113,7 +113,8 @@ header .headings {
     width: 80%;
     margin-top: -10px ;
     float: inline-end;
-
+    display: flex;
+    
 }
 
 #search #state-select{
@@ -148,17 +149,17 @@ header .headings {
 }
 
 .offer p {
-    margin-top: -45px;
+    margin-top: -40px;
     font-size: 20px;
     color: rgb(95, 93, 93);
 }
 
 .find .banner {
     background-image: url(back.jpeg);
-    width: 100;
-    
-    border-radius: 15px;
+    border-radius: 20px ;
     background-repeat: no-repeat;
+    width: 50%;
+    
 }
 
 .find .banner h3 {
@@ -171,6 +172,15 @@ header .headings {
     color: white;
     margin: 10px;
     padding: 10px 5px;
+}
+
+.find .banner button {
+    color: white;
+    background-color: #003b95;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    
 }
 
 
