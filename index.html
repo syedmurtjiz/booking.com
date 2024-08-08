@@ -14,8 +14,10 @@
 
             <div class="header1">
 
-                <a href="#" class="booking">Booking.com</a>
-
+                <div id="logo">
+                    <a href="#" class="booking">Booking.com</a>
+                </div>
+                <nav id="main_menu">
                     <ul>
                         <li><a href="#">PKR</a></li>
                         <li><a href="#">Select your language</a></li>
@@ -35,45 +37,48 @@
                     <li><a href="#">Airport taxis</a></li>
                 </ul>
             </div>
+            <div class="headings">
+                <section>
+                    <h1>Find your next stay</h1>
+                    <h3>Search deals on hotels, homes, and much more...</h3>
+
+                </section>
+            </div>
         </header>
 
+        <div id="search">
+
+            <form class="form">
+
+                <select id="state-select" name="state" class="form-control selectpicker">
+                    <option value="">Select your state</option>
+                    <option>Islamabad</option>
+                    <option>Rawalpindi</option>
+                    <option>Lahore</option>
+                    <option>Nathiagali</option>
+                    <option>Muree</option>
+                    <option>Karachi</option>
+                </select>
+
+                <input type="date" id="check-in" name="check-in">
+                <input type="date" id="check-out" name="check-out">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+
         <main class="find">
-            <section>
-                <h1>Find your next stay</h1>
-                <h3>Search deals on hotels, homes, and much more...</h3>
 
-                <form class="form">
-                    <label for="state-select">Select your state:</label>
-                    <select id="state-select" name="state" class="form-control selectpicker">
-                        <option value="">Please select your state</option>
-                        <option>Islamabad</option>
-                        <option>Rawalpindi</option>
-                        <option>Lahore</option>
-                        <option>Nathiagali</option>
-                        <option>Muree</option>
-                        <option>Karachi</option>
-                    </select>
 
-                    <label for="check-in">Check-in:</label>
-                    <input type="date" id="check-in" name="check-in">
-
-                    <label for="check-out">Check-out:</label>
-                    <input type="date" id="check-out" name="check-out">
-
-                    <button type="submit">Search</button>
-                </form>
-            </section>
-
-            <section class="main">
+            <div class="offer">
                 <h3>Offers</h3>
                 <p>Promotions, deals, and special offers for you</p>
-
-                <div class="banner">
-                    <h3>Seize the moment!</h3>
-                    <p>Save 15% or more when you book and stay before October 1, 2024</p>
+            </div>
+            <div class="banner">
+                <h3>Seize the moment!</h3>
+                <p>Save 15% or more when you book and stay before October 1,<br>2024</p><br>
                     <a href="#"><button type="button">Find Getaway Deals</button></a>
-                </div>
-            </section>
+            </div>
+
 
             <section class="property-type">
                 <h3>Browse by property type</h3>
