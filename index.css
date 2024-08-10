@@ -1,21 +1,20 @@
-
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.main-body{
+.main-body {
     width: 100%;
     height: 100%;
     padding: 0;
     margin: 0;
-    
+
 }
 
 .main-body header {
     background-color: #003b95
-} 
+}
 
 .main-body header .header1 {
     background-color: #003b95;
@@ -24,40 +23,40 @@ body{
     padding: 20px;
 }
 
-.header1 #logo{
+.header1 #logo {
     font-size: 25px;
     float: left;
     width: 25%;
     font-weight: bold;
 }
 
-#logo a{
+#logo a {
     color: aliceblue;
     text-decoration: none;
 }
 
-.header1 #main_menu{
+.header1 #main_menu {
     width: 75%;
-    float:right;
+    float: right;
     text-align: right;
-    
+
 
 }
 
-.header1 #main_menu ul{
+.header1 #main_menu ul {
     list-style: none;
 }
 
-.header1 #main_menu ul li{
+.header1 #main_menu ul li {
     display: inline-block;
     font-size: 18px;
 }
 
-.header1 #main_menu ul li a{
+.header1 #main_menu ul li a {
     text-decoration: none;
     color: white;
     padding: 10px 2px;
-    
+
 }
 
 .header2 {
@@ -73,19 +72,19 @@ body{
     padding: 0;
 }
 
-.header2 ul li{
+.header2 ul li {
     display: inline-block;
-   
+
 }
 
 .header2 ul li a {
     text-decoration: none;
     color: white;
     padding: 10px 20px;
-    
+
 }
 
-.header2 a:hover{
+.header2 a:hover {
     background: linear-gradient(to bottom, #d3e8ef 0%, #d2c7cd 100%);
 }
 
@@ -100,57 +99,92 @@ header .headings {
     color: white;
     width: 80%;
     margin: 0 auto;
-    padding-bottom:  50px; /* Slight padding around the container */
+    padding-bottom: 50px;
+    /* Slight padding around the container */
 }
 
 .headings h1 {
     font-size: 50px;
     font-weight: bold;
-    margin: 0 0 20px 0; 
+
 }
+.headings p {
+    
+
+}
+
 .main-body #search {
     width: 80%;
-    margin-top: -10px;
+    margin-top: -25px;
     display: flex;
-    justify-content: flex-end; 
+    justify-content: flex-end;
     height: 100%;
-    margin-left: -280px; 
+    margin-left: -100px;
 }
 
-#search #state-select{
+#search .form {
     border: 2px solid orange;
+    
 }
 
-
-#search #check-in{
+#search #state-select {
     border: 2px solid orange;
+    padding: 10px;
+    font-size: large;
+    text-align: center;
+    height: 75px;
+    width: 30%;
 }
 
-#search #check-out{
+
+#search #check-in {
     border: 2px solid orange;
+    padding: 10px;
+    font-size: large;
+    text-align: center;
+    height: 50px;
+    width: 30%;
+
 }
 
-#search button{
+#search #check-out {
+    border: 2px solid orange;
+    padding: 10px;
+    font-size: large;
+    text-align: center;
+    height: 50px;
+    width: 30%;
+
+}
+
+#search button {
     background-color: blue;
     color: white;
     border: 2px solid orange;
+    padding: 10px;
+    font-size: large;
+    text-align: center;
+    height: 50px;
+    width: 30%;
+
 }
 
 .find {
-    width:80%;
+    width: 80%;
     margin: 0 auto;
-    padding-top: 100px ;
+    padding-top: 0px;
 }
 
 .offer h3 {
     font-weight: bold;
-    font-size: 50px;
-    
+    font-size: 30px;
+    padding-bottom: 10px;
+
 }
 
 .offer p {
     margin-top: -40px;
-    font-size: 20px;
+    font-size: 15px;
     color: rgb(95, 93, 93);
 }
 
@@ -158,40 +192,30 @@ header .headings {
     background-image: url(back.jpeg);
     border-radius: 20px;
     background-repeat: no-repeat;
-    background-size: cover; 
-    width: 80%;
-    padding-bottom: 25px;
+    background-size: cover;
+    width: 100%;
+    height: 180px;
+    padding-bottom: 10px;
 }
 
 
 .find .banner h3 {
     color: white;
-    margin: 10px;
-    padding: 20px 10px;
+    margin: 13px;
+    padding-top: 15px;
+
 }
 
 .find .banner p {
     color: white;
-    margin: 10px;
-    padding: 10px 5px;
+    margin: 13px;
+
 }
 
 .find .banner button {
     color: white;
     background-color: #003b95;
-    font-size: 20px;
-    border-radius: 1px;
-    margin: 17px;
-    padding: 10px 5px ;
-    
+    font-size: 15px;
+    margin: 13px;
+
 }
-
-
-
-
-
-
-
-
-
-
