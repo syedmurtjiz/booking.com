@@ -115,11 +115,9 @@ header .headings {
 
 .main-body #search {
     width: 80%;
+    margin: 0 auto;
     margin-top: -25px;
-    display: flex;
-    justify-content: flex-end;
-    height: 100%;
-    margin-left: -100px;
+
 }
 
 #search .form {
@@ -132,8 +130,8 @@ header .headings {
     padding: 10px;
     font-size: large;
     text-align: center;
-    height: 75px;
-    width: 30%;
+    height: 50px;
+    
 }
 
 
@@ -143,7 +141,7 @@ header .headings {
     font-size: large;
     text-align: center;
     height: 50px;
-    width: 30%;
+    
 
 }
 
@@ -153,7 +151,7 @@ header .headings {
     font-size: large;
     text-align: center;
     height: 50px;
-    width: 30%;
+    
 
 }
 
@@ -167,6 +165,9 @@ header .headings {
     height: 50px;
     width: 30%;
 
+}
+#search input{
+    width: 25%;
 }
 
 .find {
