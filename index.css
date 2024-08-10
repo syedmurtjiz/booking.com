@@ -14,7 +14,7 @@ body{
 }
 
 .main-body header {
-    background-color: #003b95;
+    background-color: #003b95
 } 
 
 .main-body header .header1 {
@@ -56,7 +56,7 @@ body{
 .header1 #main_menu ul li a{
     text-decoration: none;
     color: white;
-    padding: 10px 5px;
+    padding: 10px 2px;
     
 }
 
@@ -100,21 +100,21 @@ header .headings {
     color: white;
     width: 80%;
     margin: 0 auto;
-    padding: 10px 30px;
-    
+    padding-bottom:  50px; /* Slight padding around the container */
 }
 
-.headings h1{
+.headings h1 {
     font-size: 50px;
     font-weight: bold;
+    margin: 0 0 20px 0; 
 }
-
-.main-body #search{
+.main-body #search {
     width: 80%;
-    margin-top: -10px ;
-    float: inline-end;
+    margin-top: -10px;
     display: flex;
-    
+    justify-content: flex-end; 
+    height: 100%;
+    margin-left: -280px; 
 }
 
 #search #state-select{
@@ -156,11 +156,13 @@ header .headings {
 
 .find .banner {
     background-image: url(back.jpeg);
-    border-radius: 20px ;
+    border-radius: 20px;
     background-repeat: no-repeat;
-    width: 50%;
-    
+    background-size: cover; 
+    width: 80%;
+    padding-bottom: 25px;
 }
+
 
 .find .banner h3 {
     color: white;
@@ -178,8 +180,9 @@ header .headings {
     color: white;
     background-color: #003b95;
     font-size: 20px;
-    border-radius: 5px;
-    margin: 10px;
+    border-radius: 1px;
+    margin: 17px;
+    padding: 10px 5px ;
     
 }
 
