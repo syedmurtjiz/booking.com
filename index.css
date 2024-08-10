@@ -61,7 +61,7 @@ body {
 
 .header2 {
     clear: both;
-    width: 1100px;  
+    width: 1100px;
     padding: 20px 10px;
     margin: 0 auto;
 }
@@ -108,10 +108,8 @@ header .headings {
     font-weight: bold;
 
 }
-.headings p {
-    
 
-}
+.headings p {}
 
 .main-body #search {
     width: 1100px;
@@ -123,7 +121,7 @@ header .headings {
 
 #search .form {
     border: 2px solid orange;
-    
+
 }
 
 #search #state-select {
@@ -133,7 +131,7 @@ header .headings {
     text-align: center;
     height: 50px;
     float: left;
-    
+
 }
 
 
@@ -143,7 +141,7 @@ header .headings {
     font-size: large;
     text-align: center;
     height: 50px;
-    
+
 
 }
 
@@ -153,7 +151,7 @@ header .headings {
     font-size: large;
     text-align: center;
     height: 50px;
-    
+
 
 }
 
@@ -169,7 +167,8 @@ header .headings {
     float: right;
 
 }
-#search input{
+
+#search input {
     width: 310px;
     margin-right: -5px;
 }
@@ -223,4 +222,27 @@ header .headings {
     font-size: 15px;
     margin: 13px;
 
+}
+
+.images {
+    overflow-x: scroll;
+    width: 1100;
+    display: flex;
+    overflow-clip-margin: content-box;
+    
+}
+
+.property-type {
+    margin: 10px;
+    flex: 0 0 25%;
+    border-radius: 30px;
+}
+
+.property-type a {
+    text-decoration: none;
+}
+
+.property-type a h4 {
+    color: gray;
+    text-align: center;
 }
