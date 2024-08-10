@@ -132,6 +132,7 @@ header .headings {
     font-size: large;
     text-align: center;
     height: 50px;
+    float: left;
     
 }
 
@@ -169,7 +170,7 @@ header .headings {
 
 }
 #search input{
-    width: 308px;
+    width: 310px;
     margin-right: -5px;
 }
 
