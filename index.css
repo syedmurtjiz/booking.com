@@ -232,10 +232,13 @@ header .headings {
     
 }
 
-.property-type {
+.property-type  {
     margin: 10px;
     flex: 0 0 25%;
-    border-radius: 30px;
+    
+}
+.property-type img{
+    border-radius: 15px;
 }
 
 .property-type a {
@@ -245,4 +248,40 @@ header .headings {
 .property-type a h4 {
     color: gray;
     text-align: center;
+}
+
+.explore-pakistan h3 p{
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.images-1 {
+    overflow-x: scroll;
+    width: 1100px;
+    display: flex;
+    
+}
+
+.images-1 .property-type1 {
+    margin: 10px;
+    flex: 0 0 15%;
+}
+
+.property-type1 a {
+   
+    text-decoration: none;
+    
+}
+
+.property-type1 a h4{
+    color: black;
+    text-align: left;
+    margin-top: 4px;
+}
+
+.property-type1 a p{
+    color: gray;
+    text-align: left;
+    margin-top: -17px;
+    font-size: small;
 }
