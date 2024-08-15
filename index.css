@@ -229,15 +229,16 @@ header .headings {
     width: 1100;
     display: flex;
     overflow-clip-margin: content-box;
-    
+
 }
 
-.property-type  {
+.property-type {
     margin: 10px;
     flex: 0 0 25%;
-    
+
 }
-.property-type img{
+
+.property-type img {
     border-radius: 15px;
 }
 
@@ -250,7 +251,7 @@ header .headings {
     text-align: center;
 }
 
-.explore-pakistan h3 p{
+.explore-pakistan h3 p {
     font-weight: bold;
     margin-left: 8px;
 }
@@ -259,7 +260,7 @@ header .headings {
     overflow-x: scroll;
     width: 1100px;
     display: flex;
-    
+
 }
 
 .images-1 .property-type1 {
@@ -267,23 +268,23 @@ header .headings {
     flex: 0 0 15%;
 }
 
-.property-type1 img{
+.property-type1 img {
     width: 200px;
-    height: auto;
-}
-.property-type1 a {
-   
-    text-decoration: none;
-    
+    height: 200px;
 }
 
-.property-type1 a h4{
+.property-type1 a {
+
+    text-decoration: none;
+
+}
+
+.property-type1 a h4 {
     color: black;
-    text-align: left;
     margin-top: 4px;
 }
 
-.property-type1 a p{
+.property-type1 a p {
     color: gray;
     text-align: left;
     margin-top: -17px;
@@ -299,39 +300,87 @@ header .headings {
 
 .unique-property-1 {
     margin: 10px;
-    flex: 0 0 auto;    
+    flex: 0 0 auto;
     border: 1px solid #ddd;
-    border-radius: 8px; 
+    border-radius: 8px;
 }
 
 .unique-property-1 img {
     width: 300px;
-    height: 200px; 
-    display: block; 
+    height: 200px;
+    display: block;
+    border-radius: 9px;
 }
 
 .unique-property-1 h3 {
     margin: 10px;
     color: black;
-     
+
 }
-.unique-property-1 p{
+
+.unique-property-1 p {
     color: gray;
     padding-top: -2px;
     margin: 10px;
     font-size: small;
-   
-}
-.unique-property-1 a{
-    text-decoration: none;
-    
+
 }
 
-.unique-property-1 button{
+.unique-property-1 a {
+    text-decoration: none;
+
+}
+
+.unique-property-1 button {
     color: white;
     background-color: #003b95;
 }
 
+.traveling .guest {
+    width: 1100px;
+    display: flex;
+    overflow-x: scroll;
+}
 
+.guests-love{
+    margin: 10px;
+    flex: 0 0 15px;
+    border: 2px solid rgb(251, 248, 248);
+    border-radius: 12px;
+}
 
+.guests-love img{
+    width: 300px;
+    height: 200px;
+    display: block;
+    border-radius: 12px;
+    margin-top: -7px;
+    margin-bottom: 10px;
 
+}
+
+.guests-love a{
+    text-decoration: none;
+    
+}
+.guests-love h3{
+    
+    color: black;
+    font-size: small;
+    font-weight: bold;
+    margin-left: 10px;
+    
+}
+.guests-love p{
+    color: gray;
+    font-size: small;
+    margin-left: 10px;
+    
+}
+
+.guests-love button{
+    background-color: #003b95;
+    color: white;
+    border-radius: 6px;
+    margin-bottom: -10px;
+}
