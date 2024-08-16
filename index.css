@@ -392,20 +392,15 @@ header .headings {
 
 
 
-.inspiration {
+.deals{
     width: 1100px;
-    overflow-x: scroll;
-    display: flex;
-    
-}
-.deals h2{
-    padding-left: 50px;
+    margin: 0 auto;
 }
 
 .inspiration{
-    width: 1100px;
     overflow-x: scroll;
     display: flex;
+   
 }
 
 .trip{
@@ -419,13 +414,29 @@ header .headings {
 .trip .trip-1 img{
     width: 600px;
     height: 500px;
+    border-radius: 5px;
+}
+.trip .trip-2 {
+    position: relative;
+    margin-top: -200px;
+    margin-left: 20px;
 }
 .trip .trip-2 a{
+    color: white;
     text-decoration: none;
-    margin-left: -20px;
 }
 
 .trip img{
     width: 300px;
     height: 350px;
+}
+
+.trip a{
+    color:black ;
+    text-decoration: none;
+}
+
+.trip a p{
+    margin-top: -14px;
+    color: gray;
 }
