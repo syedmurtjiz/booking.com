@@ -45,11 +45,13 @@ body {
 
 .header1 #main_menu ul {
     list-style: none;
+
 }
 
 .header1 #main_menu ul li {
     display: inline-block;
     font-size: 18px;
+    margin-top: -10px;
 }
 
 .header1 #main_menu ul li a {
@@ -100,7 +102,7 @@ header .headings {
     width: 1100px;
     margin: 0 auto;
     padding-bottom: 50px;
-    /* Slight padding around the container */
+  
 }
 
 .headings h1 {
@@ -342,14 +344,14 @@ header .headings {
     overflow-x: scroll;
 }
 
-.guests-love{
+.guests-love {
     margin: 10px;
     flex: 0 0 15px;
     border: 2px solid rgb(251, 248, 248);
     border-radius: 12px;
 }
 
-.guests-love img{
+.guests-love img {
     width: 300px;
     height: 200px;
     display: block;
@@ -359,28 +361,70 @@ header .headings {
 
 }
 
-.guests-love a{
+.guests-love a {
     text-decoration: none;
-    
+
 }
-.guests-love h3{
-    
+
+.guests-love h3 {
+
     color: black;
     font-size: small;
     font-weight: bold;
     margin-left: 10px;
-    
+
 }
-.guests-love p{
+
+.guests-love p {
     color: gray;
     font-size: small;
     margin-left: 10px;
-    
+
 }
 
-.guests-love button{
+.guests-love button {
     background-color: #003b95;
     color: white;
     border-radius: 6px;
     margin-bottom: -10px;
+}
+
+
+
+
+.inspiration {
+    width: 1100px;
+    overflow-x: scroll;
+    display: flex;
+    
+}
+.deals h2{
+    padding-left: 50px;
+}
+
+.inspiration{
+    width: 1100px;
+    overflow-x: scroll;
+
+}
+
+.trip{
+    display: flex;
+    margin: 10px;
+    flex: 0 0 25%;
+    
+}
+
+.trip .trip-1 img{
+    width: 300px;
+    height: 500px;
+}
+.trip .trip-2 a{
+    text-decoration: none;
+    margin-left: -20px;
+}
+
+.trip img{
+    width: 300px;
+    height: 350px;
 }
