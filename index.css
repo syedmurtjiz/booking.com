@@ -195,7 +195,7 @@ header .headings {
 }
 
 .find .banner {
-    background-image: url(back.jpeg);
+    background-image: url(images/back.jpeg);
     border-radius: 20px;
     background-repeat: no-repeat;
     background-size: cover;
